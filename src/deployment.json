@@ -1,0 +1,106 @@
+{
+  "81457": {
+    "weth": {
+      "proxyAddress": "0x4300000000000000000000000000000000000004",
+      "implAddress": "0x4300000000000000000000000000000000000004",
+      "version": "1.0.0",
+      "contract": "WETH9",
+      "operator": "0xC9E45F6098Ff44a428b02A6b4E3845EAbD09bf6a",
+      "fromBlock": 1602914
+    },
+    "factory": {
+      "proxyAddress": "0x08938EE323c6da637eFf60E854812C16249d4485",
+      "implAddress": "0x08938EE323c6da637eFf60E854812C16249d4485",
+      "version": "1.0.0",
+      "contract": "BitdexV2Factory",
+      "operator": "0xC9E45F6098Ff44a428b02A6b4E3845EAbD09bf6a",
+      "fromBlock": 1602918
+    },
+    "router": {
+      "proxyAddress": "0x5c713D9ff4c70DA9d953Ffa1ea565D9FD5CBb605",
+      "implAddress": "0x5c713D9ff4c70DA9d953Ffa1ea565D9FD5CBb605",
+      "version": "1.0.0",
+      "contract": "BitdexV2Router02",
+      "operator": "0xC9E45F6098Ff44a428b02A6b4E3845EAbD09bf6a",
+      "fromBlock": 1602922
+    }
+  },
+  "4": {
+    "weth": {
+      "proxyAddress": "0x8C016998148629564e04FCAadD493D643777f559",
+      "implAddress": "0x8C016998148629564e04FCAadD493D643777f559",
+      "version": "1.0.0",
+      "contract": "WETH9",
+      "operator": "0x3eA0949424eBB2A3d311a943e53773CB05C4BE3e",
+      "fromBlock": 10108203
+    },
+    "factory": {
+      "proxyAddress": "0x167d8a11C58A2Dfa4C2F508CD132170F6F1FB006",
+      "implAddress": "0x167d8a11C58A2Dfa4C2F508CD132170F6F1FB006",
+      "version": "1.0.0",
+      "contract": "UniswapV2Factory",
+      "operator": "0x3eA0949424eBB2A3d311a943e53773CB05C4BE3e",
+      "fromBlock": 10108204
+    },
+    "router": {
+      "proxyAddress": "0x619AbA4e59e4B33E1D9E40f34C68568837eC8438",
+      "implAddress": "0x619AbA4e59e4B33E1D9E40f34C68568837eC8438",
+      "version": "1.0.0",
+      "contract": "UniswapV2Router02",
+      "operator": "0x3eA0949424eBB2A3d311a943e53773CB05C4BE3e",
+      "fromBlock": 10108205
+    }
+  },
+  "5": {
+    "weth": {
+      "proxyAddress": "0xbA370dB39bb53D23803c61D8f449B59eaFD27a2B",
+      "implAddress": "0xbA370dB39bb53D23803c61D8f449B59eaFD27a2B",
+      "version": "1.0.0",
+      "contract": "WETH9",
+      "operator": "0xC9E45F6098Ff44a428b02A6b4E3845EAbD09bf6a",
+      "fromBlock": 10320912
+    },
+    "factory": {
+      "proxyAddress": "0x42C30958a032C6f63743166cA35Db61B05326c76",
+      "implAddress": "0x42C30958a032C6f63743166cA35Db61B05326c76",
+      "version": "1.0.0",
+      "contract": "BitdexV2Factory",
+      "operator": "0xC9E45F6098Ff44a428b02A6b4E3845EAbD09bf6a",
+      "fromBlock": 10320914
+    },
+    "router": {
+      "proxyAddress": "0xad9206a05BBE89226ca49C0935F3189384c828aE",
+      "implAddress": "0xad9206a05BBE89226ca49C0935F3189384c828aE",
+      "version": "1.0.0",
+      "contract": "BitdexV2Router02",
+      "operator": "0xC9E45F6098Ff44a428b02A6b4E3845EAbD09bf6a",
+      "fromBlock": 10320917
+    }
+  },
+  "168587773": {
+    "weth": {
+      "proxyAddress": "0x4200000000000000000000000000000000000023",
+      "implAddress": "0x4200000000000000000000000000000000000023",
+      "version": "1.0.0",
+      "contract": "WETH9",
+      "operator": "0xCE13632994BA1bc03D9696890e360939Ee34C1b4",
+      "fromBlock": 1602914
+    },
+    "factory": {
+      "proxyAddress": "0x81E834aD3F783D3AfB8461BB21CBE89efEF6f995",
+      "implAddress": "0x81E834aD3F783D3AfB8461BB21CBE89efEF6f995",
+      "version": "1.0.0",
+      "contract": "BitdexV2Factory",
+      "operator": "0xCE13632994BA1bc03D9696890e360939Ee34C1b4",
+      "fromBlock": 1602918
+    },
+    "router": {
+      "proxyAddress": "0x4513711eC1fC627B4d3101dC7cE5A82209B29484",
+      "implAddress": "0x4513711eC1fC627B4d3101dC7cE5A82209B29484",
+      "version": "1.0.0",
+      "contract": "BitdexV2Router02",
+      "operator": "0xCE13632994BA1bc03D9696890e360939Ee34C1b4",
+      "fromBlock": 1602922
+    }
+  }
+}
