@@ -1,7 +1,7 @@
 {
-  "name": "@bitconnect/bitdex-sdk",
+  "name": "@bitconnectoken/bitdex-sdk",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "🛠 An SDK for building applications on top of BitDEX.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -17,9 +17,8 @@
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
-    "prebuild": "cp ../deployment/deployment.json ./src/",
     "lint": "tsdx lint src test",
-    "build": "yarn prebuild && tsdx build",
+    "build": "tsdx build",
     "start": "tsdx watch",
     "test": "tsdx test",
     "prepublishOnly": "tsdx build"

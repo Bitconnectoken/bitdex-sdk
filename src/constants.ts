@@ -5,10 +5,6 @@ export type BigintIsh = JSBI | bigint | string
 
 export enum ChainId {
   MAINNET = 81457,
-  ROPSTEN = 3,
-  RINKEBY = 4,
-  GÖRLI = 5,
-  KOVAN = 42,
   BLAST_SEPOLIA = 168587773
 }
 
@@ -22,11 +18,20 @@ export enum Rounding {
   ROUND_HALF_UP,
   ROUND_UP
 }
-export const MULTICALL3_TESTNET = '0x2FDDaa20266E88dD7E6D0c4DfbCcBe5125a3dF79'
 
-export const ROUTER_ADDRESS = DeploymentInfo[ChainId.MAINNET].router.proxyAddress
+export const MULTICALL_ADDRESS: { [chainId in ChainId]: string } = {
+  [ChainId.MAINNET]: "0x6179bAec451c2aF7A9695F5d3e9De4B32be9005c",
+  [ChainId.BLAST_SEPOLIA]: "0x632251ef569845267BEEFb972e7ff983Ba3377c8",
+}
+export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
+  [ChainId.MAINNET]: DeploymentInfo[ChainId.MAINNET].router.proxyAddress,
+  [ChainId.BLAST_SEPOLIA]: DeploymentInfo[ChainId.BLAST_SEPOLIA].router.proxyAddress,
+}
 
-export const FACTORY_ADDRESS = DeploymentInfo[ChainId.MAINNET].factory.proxyAddress
+export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
+  [ChainId.MAINNET]: DeploymentInfo[ChainId.MAINNET].factory.proxyAddress,
+  [ChainId.BLAST_SEPOLIA]: DeploymentInfo[ChainId.BLAST_SEPOLIA].factory.proxyAddress,
+}
 
 export const INIT_CODE_HASH = '0xe178bcd2107b966bbc437b317a2d6f0f8eaba9ca62ff6ec77c7b691f0c2d89d1'
 
